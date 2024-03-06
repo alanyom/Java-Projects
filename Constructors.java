@@ -1,4 +1,4 @@
-```
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,9 +15,8 @@ public class Main {
         return baseSalary + (extraHours * hourlyRate);
     }
 }
-```
 
-```
+
 public class Employee {
     private int baseSalary;
     private int hourlyRate;
@@ -51,4 +50,4 @@ public class Employee {
         return hourlyRate;
     }
 }
-```
+
