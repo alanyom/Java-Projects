@@ -16,3 +16,12 @@ public class Main {
         return baseSalary + (extraHours * hourlyRate);
     }
 }
+
+public class Employee {
+    public int baseSalary;
+    public int hourlyRate;
+
+    public int calculateWage(int extraHours) {
+        return baseSalary + (hourlyRate * extraHours);
+    }
+}
